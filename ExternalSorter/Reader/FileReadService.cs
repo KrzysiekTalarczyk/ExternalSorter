@@ -2,7 +2,7 @@
 
 namespace ExternalSorter.Reader
 {
-    internal class FileReadService
+    internal class FileReadService : IFileReadService
     {
         public async Task<List<ElementPortionModel>> OpenAndReadFiles(string[] files, int maxLineToLoad)
         {

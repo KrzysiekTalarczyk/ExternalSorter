@@ -10,9 +10,10 @@ namespace ExternalSorter.Spliter
 {
     internal class SortService
     {
-        private readonly FileMergeService _fileMergeService;
+        private readonly IFileMergeService _fileMergeService;
         private BlockingCollection<MergeFileStage> _mergedFilesQueue;
         private ConcurrentBag<Task<string>> _mergeTasks;
+
         public SortService()
         {
             _mergeTasks = new ConcurrentBag<Task<string>>();
