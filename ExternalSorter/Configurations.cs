@@ -15,5 +15,7 @@
         public static string WorkingDirectory = @".\MergedFile";
 
         public static int BUFFER_SIZE = 50;
+
+        public static string OutputFilePath = @".\SortedElements.dat";
     }
 }

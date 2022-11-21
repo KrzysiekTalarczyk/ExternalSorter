@@ -61,7 +61,8 @@ namespace ExternalSorter.Spliter
             var resullt = await fileMerger;
             Console.WriteLine("End last stage merge.");
             sourceFile.Dispose();
-            return resullt;
+            File.Move(resullt, Configurations.OutputFilePath);
+            return Configurations.OutputFilePath;
         }
   
         private Task<string> MergeSortedFiles(List<Task<string>> splitFileTasks, int number)
