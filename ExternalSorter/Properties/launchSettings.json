@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ExternalSorter": {
+      "commandName": "Project",
+      "commandLineArgs": "..\\..\\..\\randomElements.dat"
+    }
+  }
+}

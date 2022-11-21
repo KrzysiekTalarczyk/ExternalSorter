@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExternalSorter", "ExternalSorter.csproj", "{1E7B8B38-6634-4765-818F-F6ADC467B862}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileGenerator", "..\FileGenerator\FileGenerator.csproj", "{BEB702AD-A128-459E-B236-88DAA6E9720D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E7B8B38-6634-4765-818F-F6ADC467B862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E7B8B38-6634-4765-818F-F6ADC467B862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E7B8B38-6634-4765-818F-F6ADC467B862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E7B8B38-6634-4765-818F-F6ADC467B862}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEB702AD-A128-459E-B236-88DAA6E9720D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEB702AD-A128-459E-B236-88DAA6E9720D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEB702AD-A128-459E-B236-88DAA6E9720D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEB702AD-A128-459E-B236-88DAA6E9720D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8FB90EB6-4E51-4341-9661-BF6473B408E1}
+	EndGlobalSection
+EndGlobal
